@@ -18,6 +18,7 @@
 		CC9FF9C327D35BEA00D2606A /* ITISRequestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9FF9C227D35BEA00D2606A /* ITISRequestUITests.swift */; };
 		CC9FF9C527D35BEA00D2606A /* ITISRequestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9FF9C427D35BEA00D2606A /* ITISRequestUITestsLaunchTests.swift */; };
 		CC9FF9D627D35EC700D2606A /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9FF9D527D35EC700D2606A /* Presenter.swift */; };
+		CC9FF9D927D35FC300D2606A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9FF9D827D35FC300D2606A /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CC9FF9C227D35BEA00D2606A /* ITISRequestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITISRequestUITests.swift; sourceTree = "<group>"; };
 		CC9FF9C427D35BEA00D2606A /* ITISRequestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITISRequestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CC9FF9D527D35EC700D2606A /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		CC9FF9D827D35FC300D2606A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		CC9FF9D127D35C7100D2606A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CC9FF9D827D35FC300D2606A /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				CC9FF9A327D35BE800D2606A /* ViewController.swift in Sources */,
 				CC9FF99F27D35BE800D2606A /* AppDelegate.swift in Sources */,
 				CC9FF9A927D35BE800D2606A /* ITISRequest.xcdatamodeld in Sources */,
+				CC9FF9D927D35FC300D2606A /* Model.swift in Sources */,
 				CC9FF9A127D35BE800D2606A /* SceneDelegate.swift in Sources */,
 				CC9FF9D627D35EC700D2606A /* Presenter.swift in Sources */,
 			);
