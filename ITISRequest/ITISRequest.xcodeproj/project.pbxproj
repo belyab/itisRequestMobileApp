@@ -22,10 +22,12 @@
 		CC9FF9C527D35BEA00D2606A /* ITISRequestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9FF9C427D35BEA00D2606A /* ITISRequestUITestsLaunchTests.swift */; };
 		CC9FF9D627D35EC700D2606A /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9FF9D527D35EC700D2606A /* Presenter.swift */; };
 		CC9FF9D927D35FC300D2606A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9FF9D827D35FC300D2606A /* Model.swift */; };
-		D62DFC1627D366F00046D3A7 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = D62DFC1527D366F00046D3A7 /* GoogleService-Info (1).plist */; };
 		D62DFC1927D3673B0046D3A7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D62DFC1827D3673B0046D3A7 /* FirebaseAnalytics */; };
 		D62DFC1B27D3673B0046D3A7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D62DFC1A27D3673B0046D3A7 /* FirebaseAuth */; };
 		D62DFC1D27D3673B0046D3A7 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = D62DFC1C27D3673B0046D3A7 /* FirebaseDatabase */; };
+		D686FAE327D7EDC800AF34D9 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = D686FAE227D7EDC800AF34D9 /* GoogleService-Info (2).plist */; };
+		D686FAE427D7EDC800AF34D9 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = D686FAE227D7EDC800AF34D9 /* GoogleService-Info (2).plist */; };
+		D686FAE527D7EDC800AF34D9 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = D686FAE227D7EDC800AF34D9 /* GoogleService-Info (2).plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +72,7 @@
 		CC9FF9C427D35BEA00D2606A /* ITISRequestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITISRequestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CC9FF9D527D35EC700D2606A /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		CC9FF9D827D35FC300D2606A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		D62DFC1527D366F00046D3A7 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../../../Downloads/GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		D686FAE227D7EDC800AF34D9 /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (2).plist"; path = "../../../Downloads/GoogleService-Info (2).plist"; sourceTree = "<group>"; };
 		E3ACAC7C2E96C6032AFF6F2D /* Pods_ITISRequestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ITISRequestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -131,6 +133,7 @@
 		CC9FF99227D35BE700D2606A = {
 			isa = PBXGroup;
 			children = (
+				D686FAE227D7EDC800AF34D9 /* GoogleService-Info (2).plist */,
 				CC9FF99D27D35BE800D2606A /* ITISRequest */,
 				CC9FF9B727D35BEA00D2606A /* ITISRequestTests */,
 				CC9FF9C127D35BEA00D2606A /* ITISRequestUITests */,
@@ -153,7 +156,6 @@
 		CC9FF99D27D35BE800D2606A /* ITISRequest */ = {
 			isa = PBXGroup;
 			children = (
-				D62DFC1527D366F00046D3A7 /* GoogleService-Info (1).plist */,
 				CC9FF9D427D35CCD00D2606A /* Resources */,
 				CC9FF9D327D35C8800D2606A /* View */,
 				CC9FF9D227D35C7800D2606A /* Presenter */,
@@ -334,10 +336,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D686FAE327D7EDC800AF34D9 /* GoogleService-Info (2).plist in Resources */,
 				CC9FF9AE27D35BEA00D2606A /* LaunchScreen.storyboard in Resources */,
 				CC9FF9AB27D35BEA00D2606A /* Assets.xcassets in Resources */,
 				CC9FF9A627D35BE800D2606A /* Main.storyboard in Resources */,
-				D62DFC1627D366F00046D3A7 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D686FAE427D7EDC800AF34D9 /* GoogleService-Info (2).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +355,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D686FAE527D7EDC800AF34D9 /* GoogleService-Info (2).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,7 +654,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RWX2Q25537;
+				DEVELOPMENT_TEAM = 62YX3Q29ZD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ITISRequest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -679,7 +683,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RWX2Q25537;
+				DEVELOPMENT_TEAM = 62YX3Q29ZD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ITISRequest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
